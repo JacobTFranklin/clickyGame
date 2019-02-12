@@ -1,0 +1,63 @@
+[
+    {
+        "id":1,
+        "alt": "Bulbasaur",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png"
+    },
+    {
+        "id":2,
+        "alt": "Charmander",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png"
+    },
+    {
+        "id":3,
+        "alt": "Squirtle",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png"
+    },
+    {
+        "id":4,
+        "alt": "Pikachu",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png"
+    },
+    {
+        "id":5,
+        "alt": "Farfetchd",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/f/f8/083Farfetch%27d.png/250px-083Farfetch%27d.png"
+    },
+    {
+        "id":6,
+        "alt": "Arcanine",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/b/b8/059Arcanine.png/250px-059Arcanine.png"
+    },
+    {
+        "id":7,
+        "alt": "Articuno",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/4/4e/144Articuno.png/250px-144Articuno.png"
+    },
+    {
+        "id":8,
+        "alt": "Kadabra",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/9/97/064Kadabra.png/250px-064Kadabra.png"
+    },
+    {
+        "id":9,
+        "alt": "Nidoqueen",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/b/bf/031Nidoqueen.png/250px-031Nidoqueen.png"
+    },
+    {
+        "id":10,
+        "alt": "Onyx",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/9/9a/095Onix.png/250px-095Onix.png"
+    },
+    {
+        "id":11,
+        "alt": "Gengar",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png"
+    },
+    {
+        "id":12,
+        "alt": "Pidgeotto",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/7/7a/017Pidgeotto.png/250px-017Pidgeotto.png"
+    }
+
+]

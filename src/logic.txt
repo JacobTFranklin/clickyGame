@@ -1,0 +1,10 @@
+-Every image (card) needs to be clickable
+- Upon clicking an image, the following should happen:
+    -Shuffle of images
+    -Determine if it has or has not been clicked
+        -if it has, clear score, dispay 'you guessed incorrectly', start game over 
+            -starting game over resets the score, shuffles
+        -if it hasn't, add 1 to the score, display 'you guessed correctly' , shuffle images
+- Scores should be pushed to an array
+    -highest value of the array displayed as the top score
+
