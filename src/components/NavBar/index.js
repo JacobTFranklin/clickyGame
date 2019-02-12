@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import {Animated} from "react-animated-css";
 
 
 function Navbar(props) {
@@ -15,9 +16,11 @@ function Navbar(props) {
           </Link>
           </div>
           <div className= "col md 4">
+          <Animated animationIn="pulse">
             <li className="nav-item">
-                {props.message}
+                <span className= {props.color}>{props.message}</span>
             </li>
+            </Animated> 
             </div>
             <div className= "col md 4">
             <li className="nav-item" id="score">

@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer className="footer">
-            <span>Clicky Game!</span>
+        <footer className="footer footer-dark bg-dark">
+            <span id="clicky">Clicky Game!</span>
         </footer>
     )
 };

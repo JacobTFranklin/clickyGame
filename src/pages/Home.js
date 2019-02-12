@@ -13,7 +13,8 @@ class Home extends Component  {
     guesses:[],
     score: 0,
     topScore: 0,
-    message: "Click an image to begin!"
+    message: "Click an image to begin!",
+    color: ""
   }
 
 
@@ -30,13 +31,15 @@ checkGuess = id => {
     if(this.state.guesses.includes(id)){
         this.setState({score: 0});
         this.setState({message:"You guessed incorrectly!"});
-        this.setState({guesses: []})
+        this.setState({color:"text-danger"});
+        this.setState({guesses: []});
 
     }
     else{
         this.state.guesses.push(id);
         this.setState({score: this.state.score +1});
-        this.setState({message:"You guessed correctly!"})
+        this.setState({message:"You guessed correctly!"});
+        this.setState({color:"text-success"});
         if(this.state.topScore <= this.state.score || this.state.topScore === 0){
             this.setState({topScore: this.state.topScore +1})
         }
@@ -49,7 +52,7 @@ checkGuess = id => {
   render(){
     return(
     <div>
-      <NavBar score={this.state.score} topScore={this.state.topScore} message={this.state.message}/>
+      <NavBar score={this.state.score} topScore={this.state.topScore} message={this.state.message} color={this.state.color}/>
       <Wrapper>
       <Header/>
       <Container images={this.state.images} shuffleArray={this.shuffleArray} checkGuess={this.checkGuess}/>
