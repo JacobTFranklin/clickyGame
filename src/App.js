@@ -12,7 +12,7 @@ class App extends Component {
         <div>
         <NavBar />
         <Wrapper>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/clickyGame" component={Home} />
         </Wrapper>
         <Footer />
         </div>
