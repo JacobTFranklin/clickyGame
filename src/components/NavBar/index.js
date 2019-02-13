@@ -12,7 +12,7 @@ function Navbar(props) {
           <ul className="navbar-nav">
           <div class= "col md 4">
           <Link to="/clickyGame" className={window.location.pathname === "/clickyGame" ? "nav-link active" : "nav-link"}>
-                Clicky Game
+                <span onClick={() => window.location.reload()}>Clicky Game</span>
           </Link>
           </div>
           <div className= "col md 4">

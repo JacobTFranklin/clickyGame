@@ -17,6 +17,15 @@ class Home extends Component  {
     color: ""
   }
 
+  initialState = {
+    images,
+    guesses:[],
+    score: 0,
+    topScore: 0,
+    message: "Click an image to begin!",
+    color: ""
+  }
+
 
 
 shuffleArray =images => {
@@ -48,11 +57,16 @@ checkGuess = id => {
 }
 
 
+componentDidMount(initialState) {
+  this.setState(initialState);
+}
+
+
 
   render(){
     return(
     <div>
-      <NavBar score={this.state.score} topScore={this.state.topScore} message={this.state.message} color={this.state.color}/>
+      <NavBar score={this.state.score} topScore={this.state.topScore} message={this.state.message} color={this.state.color} shuffleArray={this.shuffleArray} images={this.state.images}/>
       <Wrapper>
       <Header/>
       <Container images={this.state.images} shuffleArray={this.shuffleArray} checkGuess={this.checkGuess}/>
